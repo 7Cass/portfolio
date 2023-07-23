@@ -9,9 +9,7 @@ export function Hero() {
             <h1 className="text-6xl">Eaí, me chamo <span className="text-violet-500">João</span>! 👋</h1>
             <p className="text-zinc-400 text-xl pt-4 font-light">Desenvolvedor Fullstack & Entusiasta de novas tecnologias.</p>
             <div className="flex text-violet-500 mt-6 gap-4">
-              <a href="https://github.com/7cass" rel="noopener noreferer" target="_blank">
-                <GithubIcon size={40} absoluteStrokeWidth strokeWidth={1} />
-              </a>
+              
               <a href="https://linkedin.com/in/jparruda" rel="noopener noreferer" target="_blank">
                 <LinkedinIcon size={40} absoluteStrokeWidth strokeWidth={1} />
               </a>
