@@ -1,3 +1,4 @@
+'use client';
 import Typewriter from 'typewriter-effect'
 
 export default function Hero() {
@@ -20,7 +21,7 @@ export default function Hero() {
                   deleteSpeed: 5,
                 }} />
             </p>
-            <a href="cv_fullstack.pdf" download="joao_pedro_arruda_fullstack_cv.pdf" className='bg-violet-500 hover:bg-violet-400 transition-colors text-zinc-200 px-8 py-12 rounded-sm flex items-center justify-center md:mt-16 text-4xl max-w-[350px]'>Download CV</a>
+            <a href='cv_fullstack.pdf' download='joao_pedro_arruda_fullstack_cv.pdf' className='bg-violet-500 hover:bg-violet-400 transition-colors text-zinc-200 px-8 py-12 rounded-sm flex items-center justify-center md:mt-16 text-4xl max-w-[350px]'>Download CV</a>
           </div>
         </div>
       </div>

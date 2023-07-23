@@ -1,5 +1,5 @@
 'use client'
-import { TerminalWindow } from "@phosphor-icons/react"
+import { TerminalWindow } from '@phosphor-icons/react'
 
 export default function Header() {
   return (
@@ -12,19 +12,19 @@ export default function Header() {
           </div>
           <ul className='flex list-none text-zinc-200'>
             <li className='ml-20 border-b-2 border-b-transparent hover:border-b-violet-500 transition-all'>
-              <a href="#hero" className='text-4xl'>Hero</a>
+              <a href='#hero' className='text-4xl'>Hero</a>
             </li>
             <li className='ml-20 border-b-2 border-b-transparent hover:border-b-violet-500 transition-all'>
-              <a href="#about" className='text-4xl'>Sobre</a>
+              <a href='#about' className='text-4xl'>Sobre</a>
             </li>
             <li className='ml-20 border-b-2 border-b-transparent hover:border-b-violet-500 transition-all'>
-              <a href="#experiences" className='text-4xl'>XP</a>
+              <a href='#experiences' className='text-4xl'>XP</a>
             </li>
             <li className='ml-20 border-b-2 border-b-transparent hover:border-b-violet-500 transition-all'>
-              <a href="#projects" className='text-4xl'>Projetos</a>
+              <a href='#projects' className='text-4xl'>Projetos</a>
             </li>
             <li className='ml-20 border-b-2 border-b-transparent hover:border-b-violet-500 transition-all'>
-              <a href="#services" className='text-4xl'>Serviços</a>
+              <a href='#services' className='text-4xl'>Serviços</a>
             </li>
           </ul>
         </nav>

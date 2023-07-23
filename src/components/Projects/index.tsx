@@ -1,11 +1,11 @@
-import { GithubIcon, Globe } from "lucide-react";
+import { GithubIcon, Globe } from 'lucide-react';
 
 export default function Projects() {
   return (
     <section id='projects' className='my-52'>
       <div className='max-w-[1140px] mx-auto'>
         <div className='w-full'>
-          <div className="flex flex-col items-end gap-6">
+          <div className='flex flex-col items-end gap-6'>
             <h1 className='text-zinc-200 text-8xl font-medium'>
               <span className='text-violet-500 -mr-2'>../</span>projetos
             </h1>
