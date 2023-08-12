@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-gradient-to-br from-cyan-500 to-teal-400;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-white/40 rounded-full;
+}
