@@ -26,14 +26,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 8px;
+  background: transparent;
 }
 
 body::-webkit-scrollbar-track {
-  @apply bg-gradient-to-br from-cyan-500 to-teal-400;
+  @apply bg-zinc-950 dark:bg-zinc-200;
 }
 
 body::-webkit-scrollbar-thumb {
-  @apply bg-white/40 rounded-full;
-}
+  @apply bg-zinc-200 dark:bg-zinc-950;
+} */

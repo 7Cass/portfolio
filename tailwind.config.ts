@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,36 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontSize: {
+        '10xl': '10rem',
+        xxl: '11rem',
+        '2xxl': '12rem',
+        '3xxl': '13rem',
+      },
+      animation: {
+        primary: 'primary 13s linear infinite',
+        secondary: 'secondary 13s linear infinite',
+      },
+      keyframes: {
+        primary: {
+          from: {
+            left: '0%',
+          },
+          to: {
+            left: '-100%',
+          },
+        },
+        secondary: {
+          from: {
+            left: '100%',
+          },
+          to: {
+            left: '0%',
+          },
+        },
       },
     },
   },
-  plugins: [],
-}
-export default config
+  plugins: [require('tailwindcss-animation-delay')],
+};
+export default config;
