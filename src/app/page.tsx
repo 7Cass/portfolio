@@ -20,11 +20,11 @@ export default function Home() {
         <div className="space-y-2 flex-1 flex flex-col justify-center">
           <p className="text-4xl md:text-5xl lg:text-6xl font-semibold">Eaí,</p>
           <div className="flex items-center justify-center gap-2">
-            <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold rounded p-2 bg-zinc-950 dark:bg-zinc-200 text-zinc-200 dark:text-zinc-950">
+            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold rounded p-2 bg-zinc-950 dark:bg-zinc-200 text-zinc-200 dark:text-zinc-950">
               Sou o João!
             </h1>
           </div>
-          <h4 className="text-lg md:text-3xl lg:text-4xl text-zinc-950 dark:text-zinc-200 font-light">
+          <h4 className="max-w-[300px] text-lg md:text-3xl lg:text-4xl text-zinc-950 dark:text-zinc-200 font-light">
             <Typewriter
               words={[
                 'Desenvolvedor Front-End',
