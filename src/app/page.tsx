@@ -94,7 +94,7 @@ export default function Home() {
       {/* Floating Icons */}
       <section className="z-50 m-6 flex gap-4 fixed right-0 bottom-0 text-zinc-950 dark:text-zinc-200">
         <a
-          href="https://github.com/7cass"
+          href="https://linkedin.com/in/jparruda/"
           target="_blank"
           rel="noopener noreferrer">
           <LinkedInLogoIcon className="h-8 md:h-12 w-8 md:w-12 drop-shadow-md" />
