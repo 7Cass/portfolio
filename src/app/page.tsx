@@ -24,7 +24,7 @@ export default function Home() {
               Sou o João!
             </h1>
           </div>
-          <h4 className="max-w-[300px] text-lg md:text-3xl lg:text-4xl text-zinc-950 dark:text-zinc-200 font-light">
+          <h4 className="text-lg md:text-3xl lg:text-4xl text-zinc-950 dark:text-zinc-200 font-light">
             <Typewriter
               words={[
                 'Desenvolvedor Front-End',
